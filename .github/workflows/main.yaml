@@ -7,7 +7,7 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@v2
         with:
-          name: hellfest-bingo/hellfest-bingo-spa
+          repository: orgname/reponame
       - name: Use Node.js 14.x
         uses: actions/setup-node@v1
         with:
