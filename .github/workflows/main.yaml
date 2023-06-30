@@ -9,7 +9,7 @@ jobs:
         with:
           repository: hellfest-bingo/hellfest-bingo-spa
           ref: main
-          token: ${{secrets.SPA_REPO_TOKEN}}
+          token: ${{ secrets.SPA_REPO_TOKEN }}
       - name: Use Node.js 14.x
         uses: actions/setup-node@v1
         with:
